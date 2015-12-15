@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* Musical Difusió CSS */
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////// GENERAL ///////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body
+{
+	font: 14px Gill Sans MT;
+	color: rgb( 0, 84, 151 );
+}
+
+img
+{
+	border: none;
+}
+
+a.menu:link
+{	
+	color: rgb( 154, 175, 192 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}		
+a.menu:visited
+{	
+	color: rgb( 154, 175, 192 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}			
+a.menu:hover
+{	
+	color: rgb( 0, 84, 151 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}		
+a.menu:active
+{	
+	color: rgb( 0, 84, 151 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}
+
+a.menu2:link
+{	
+	color: rgb( 0, 84, 151 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}		
+a.menu2:visited
+{	
+	color: rgb( 0, 84, 151 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}			
+a.menu2:hover
+{	
+	color: rgb( 0, 84, 151 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}		
+a.menu2:active
+{	
+	color: rgb( 0, 84, 151 );
+	font: 16px Gill Sans MT;
+	text-decoration: none;
+}
+
+a.interior:link
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+}		
+a.interior:visited
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+}			
+a.interior:hover
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}		
+a.interior:active
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}
+
+a.interior2:link
+{	
+	color: rgb( 0, 84, 151 );
+	font: 14px Gill Sans MT;
+}		
+a.interior2:visited
+{	
+	color: rgb( 0, 84, 151 );
+	font: 14px Gill Sans MT;
+}			
+a.interior2:hover
+{	
+	color: rgb( 0, 84, 151 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}		
+a.interior2:active
+{	
+	color: rgb( 0, 84, 151 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}
+
+span.seleccionat
+{
+	font: 16px Gill Sans MT;
+}
+
+#contingut_general
+{
+	margin:0 auto 0 auto;
+	margin-top: 50px;
+	width: 800px;
+	height: 600px;
+	text-align: center;
+}
+
+#contingut_general_home
+{
+	margin:0 auto 0 auto;
+	width: 700px;
+	height: 625px;
+	text-align: center;
+}
+
+#titol
+{
+	text-align: center;
+}
+
+#menu
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#palla
+{
+	margin-top: 0px;
+	text-align: center;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////// HOME /////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#inici_info
+{
+	position:relative;
+	margin-left:-115px;
+	top: 15px;
+	width:315px;
+	height:300px;
+	text-align: right;
+	font: 12px Gill Sans MT;
+}
+
+#flash
+{ 
+	position: relative;
+	margin-top: 25px;
+	text-align: left;
+}
+
+a.inici:link
+{	
+	color: rgb( 0, 84, 151 ); 
+	font: 25px Gill Sans MT;
+	text-decoration: none;
+}		
+a.inici:visited
+{	
+	color: rgb( 0, 84, 151 );
+	font: 25px Gill Sans MT;
+	text-decoration: none;
+}			
+a.inici:hover
+{	
+	color: rgb( 154, 175, 192 );
+	font: 25px Gill Sans MT;
+	text-decoration: none;
+}		
+a.inici:active
+{	
+	color: rgb( 154, 175, 192 );
+	font: 25px Gill Sans MT;
+	text-decoration: none;
+}
+
+a.mail_home:link
+{	
+	color: rgb( 0, 84, 151 );
+	font: 14px Gill Sans MT;
+}		
+a.mail_home:visited
+{	
+	color: rgb( 0, 84, 151 );
+	font: 14px Gill Sans MT;
+}			
+a.mail_home:hover
+{	
+	color: rgb( 154, 175, 192 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}		
+a.mail_home:active
+{	
+	color: rgb( 154, 175, 192 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}
+
+#principal
+{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////// QUI SOM ////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#qui_som
+{
+	background:url(img/Quisom.png);
+	margin-top: 30px;
+	margin-left: 200px;
+	width: 386px;
+	height: 398px;
+	text-align: center;
+}
+
+#hanconfiat
+{
+	position: relative;
+	top: 10px;
+	left: 180px;
+	width: 200px;
+	height: 20px;
+	text-align: right;
+}
+
+#qui_som_contingut
+{
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 316px;
+	height: 348px;
+	text-align: justify;
+	overflow: auto;
+	color: #FFFFFF;
+	padding-right:20px;
+}
+
+#han_confiat_contingut
+{
+	position:relative;
+	left: 50px;
+	top: 50px;
+	width: 316px;
+	height: 348px;
+	text-align: justify;
+	overflow: auto;
+	color: #FFFFFF;
+	padding-right:20px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////// FORMACIONS //////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#formacions
+{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#boto_enrera
+{
+	margin-top: 15px;
+}
+
+#text_boto_enrera
+{
+	position:relative;
+	height: 30px;
+	width: 150px;
+	top: -26px;
+	left: 425px;
+	text-align: left;
+}
+
+p.cos_esq
+{
+	text-align:left;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// AGENDA ////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#agenda
+{
+	background: url(img/agenda.png);
+	margin-left: 100px;
+	margin-top: 30px;
+	width: 603px;
+	height: 372px;
+	text-align: center;
+}
+
+#agenda_submenu
+{
+	margin-top: 0px;
+	width: 100px;
+	height: 300px;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+#agenda_contingut_fons
+{
+	margin-left: 130px;
+	margin-top: -305px;
+	width: 450px;
+	height: 330px;
+	text-align: center;
+	background: url(img/agenda_contingut.png);
+}
+
+span.agenda_dia
+{
+	color: rgb( 0, 84, 151 );
+}
+
+#agenda_contingut
+{
+	position:relative;
+	left: 20px;
+	top: 10px;
+	width: 430px;
+	height: 310px;
+	text-align: left;
+	color: #000000;
+	overflow:auto;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////// CATALEGS ///////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#catalegs
+{
+	background: url(img/agenda.png);
+	margin-left: 100px;
+	margin-top: 30px;
+	width: 603px;
+	height: 372px;
+	text-align: center;
+}
+
+#catalegs_contingut_fons
+{
+	background: url(img/catalegs_contingut.png);
+	position:relative;
+	left: 40px;
+	top: 20px;
+	width: 520px;
+	height: 330px;
+	text-align: center;
+}
+
+#catalegs_contingut
+{
+	position:relative;
+	left: 0px;
+	top: 40px;
+	width: 520px;
+	height: 300px;
+	text-align: center;
+	color: #000000;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////// CONTACTE ///////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#contacte
+{
+	background:url(img/contacte.png);
+	margin-left: 145px;
+	margin-top: 30px;
+	width: 513px;
+	height: 318px;
+	text-align: center;
+}
+
+#info_contacte
+{
+	position:relative;
+	left: 280px;
+	top: 100px;
+	width: 200px;
+	height: 200px;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+a.mail_contacte:link
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+}		
+a.mail_contacte:visited
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+}			
+a.mail_contacte:hover
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}		
+a.mail_contacte:active
+{	
+	color: rgb( 255, 255, 255 );
+	font: 14px Gill Sans MT;
+	text-decoration: none;
+}
